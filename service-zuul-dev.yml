@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    provider-member:
+      path: /api-member/**
+    consumer-order:
+      path: /api-order/**
