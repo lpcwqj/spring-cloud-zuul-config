@@ -1,6 +1,8 @@
 zuul:
   routes:
-    provider-member:
+    api-a:
       path: /api-member/**
-    consumer-order:
+      serviceId: provider-member
+    api-b:
       path: /api-order/**
+      serviceId: consumer-order
